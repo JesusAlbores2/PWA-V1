@@ -1,0 +1,46 @@
+/* Estilos para las burbujas de chat como publicaciones */
+.chat-message.outgoing.shadow {
+  background-color: #f0f2f5; /* Color de fondo claro como en las publicaciones */
+  border: 0px solid #ced4da; /* Borde sutil */
+  border-radius: 0px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 0px; /* Espaciado entre publicaciones */
+  max-width: 60%; /* Ancho máximo de la burbuja */
+  word-wrap: break-word; /* Asegurar que el texto no desborde */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el contenedor de las burbujas de chat */
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinear burbujas a la derecha */
+}
+/* Estilo para los mensajes en cajas de posteo */
+.mensaje {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+/* Estilo para mensajes enviados por el usuario */
+.mensaje-enviado {
+  margin-left: auto;
+  margin-right: 0;
+  background-color: #dcf8c6;
+}
+
+/* Estilo para mensajes recibidos */
+.mensaje-recibido {
+  margin-left: 0;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.col-lg-6.col-9 {
+  width: 100% !important;
+  overflow: hidden;
+}
+
